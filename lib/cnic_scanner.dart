@@ -12,7 +12,7 @@ class CnicScanner {
   final ImagePicker _picker = ImagePicker();
 
   /// it will check the image source
-  late ImageSource source;
+  ImageSource source = ImageSource.camera;
 
   /// a model class to store cnic data
   CnicModel _cnicDetails = CnicModel();
